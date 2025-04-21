@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node my-first.js",
+    "dev": "node --run -- --watch",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "formidable": "^3.5.2"
+  }
+}
