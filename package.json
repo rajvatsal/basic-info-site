@@ -1,9 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "start": "node my-first.js",
-    "dev": "node --run -- --watch",
-    "test": "node --test"
+    "start": "node index.js",
+    "dev": "node --run -- --watch"
   },
   "dependencies": {
     "@types/node": "^22.14.1",
