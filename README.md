@@ -10,7 +10,7 @@ git clone https://github.com/rajvatsal/basic-info-site.git
 compile to js
 
 ```bash
-./ts.compile.sh'
+node --run tsc
 ```
 
 open with node
