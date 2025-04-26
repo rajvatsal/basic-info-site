@@ -2,10 +2,12 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js",
+    "dev": "node --run tsc && node --run start",
     "tsc": "tsc index.ts --target es2024 --moduleResolution nodenext --module nodenext"
   },
   "dependencies": {
-    "@types/node": "^22.14.1"
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "express": "^5.1.0"
   }
 }
